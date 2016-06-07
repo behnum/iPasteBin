@@ -23,6 +23,7 @@
     <title>PasteBin - {{ $data['title'] }}</title>
 
     <link href="css/app.css" rel="stylesheet">
+    <link href="css/ipastebin.css" rel="stylesheet">
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!--[if lt IE 9]>

@@ -1,0 +1,13 @@
+textarea#input-ta {
+  display: inline-block;
+  margin: 0 auto;
+  width: 80%;
+  height: 200px;
+
+  border-radius: 7px;
+  border: 1px solid gray;
+}
+
+form.paste-form {
+  text-align: center;
+}

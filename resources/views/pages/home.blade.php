@@ -13,7 +13,9 @@
 <div class="container">
 <!-- Example row of columns -->
 <div class="row">
-  Content
+  <form class="paste-form" action="#" method="post">
+    <textarea id="input-ta" name="name" rows="8" cols="40"></textarea>
+  </form>
 </div>
 
 </div> <!-- /container -->
