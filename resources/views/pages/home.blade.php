@@ -6,16 +6,16 @@
 <div class="jumbotron">
 <div class="container">
 <h1>iPasteBin</h1>
-<p>iPasteBin is yet another simple tool that enables you to save your text snippets and share them.</p>
+<p>iPasteBin is a simple tool for saving and sharing your text snippets.</p>
 </div>
 </div>
 
 <div class="container">
 <!-- Example row of columns -->
-<div class="row">
-  <form class="paste-form" action="#" method="post">
-    <textarea id="input-ta" name="name" rows="8" cols="40"></textarea>
-  </form>
+<div class="paper">
+    <div class="paper-content">
+        <textarea autofocus>Hello world !&#10;Here's a paper textarea tag.</textarea>
+    </div>
 </div>
 
 </div> <!-- /container -->
