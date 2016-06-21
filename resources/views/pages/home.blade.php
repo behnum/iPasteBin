@@ -14,7 +14,7 @@
 <!-- Example row of columns -->
 <div class="paper">
     <div class="paper-content">
-        <textarea autofocus>Hello world !&#10;Here's a paper textarea tag.</textarea>
+        <textarea id="iText" autofocus>Start Typing . . .</textarea>
     </div>
 </div>
 
