@@ -1,8 +1,11 @@
 # iPasteBin
 
-iPasteBin is yet another simple paste tool based on Laravel 5 which is intended to be a playground to tryout new stuff and related technologies.
+iPasteBin is yet another simple paste tool based on Laravel 5.
 
 It is to be chaste, fast and intuitive in every respect and the way it functions is subject to change over the time of its' development.
+
+# FAQ
+Frequently Asked Questions
 
 ## License
 
