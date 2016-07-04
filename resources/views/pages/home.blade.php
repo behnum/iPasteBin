@@ -11,13 +11,15 @@
 
 <div class="container">
 
-	<div class="paper">
-	    <div class="paper-content">
-	        <textarea id="iText" autofocus>Start Typing . . .</textarea>
-	    </div>
-	</div>
-
-	<button class="save">Save</button>
+	<form action="./" method="post">
+		<input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+		<div class="paper">
+		    <div class="paper-content">
+		        <textarea id="iText" name="iText" autofocus>{{ isset($data['iText']) ? $data['iText'] : 'Start Typing . . .' }}</textarea>
+		    </div>
+		</div>
+		<button class="save {{ isset($data['iText']) ? 'saved' : '' }}">Save</button>
+	</form>
 
 </div>
 

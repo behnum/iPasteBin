@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Request;
 
-use App\Http\Requests;
 
 class pagesController extends Controller
 {
@@ -22,5 +21,16 @@ class pagesController extends Controller
         'title' => 'About'
       );
       return view('pages.about', compact('data'));
+    }
+
+    public function save() {
+      $iText = Request::input('iText');
+
+      $data = array (
+        'title' => 'Saved', //todo: Implement this
+        'iText' => $iText,
+      );
+      
+      return view('pages.home', compact('data'));
     }
 }

@@ -74,3 +74,8 @@ button.save {
     max-width: 800px;
     min-width: 400px;
 }
+
+.saved {
+    background-color: yellow;
+    color: green;
+}
