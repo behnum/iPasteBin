@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+f<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -30,27 +30,6 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <style>
-      body {
-        padding-top: 20px;
-        padding-bottom: 20px;
-      }
-
-      .navbar {
-        margin-bottom: 20px;
-      }
-
-    .footer {
-      position: absolute;
-      padding: 7px;
-      bottom: 0;
-      width: 100%;
-      /* Set the fixed height of the footer here */
-      height: 50px;
-      background-color: #f5f5f5;
-    }
-    </style>
 
 </head>
 

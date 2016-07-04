@@ -1,16 +1,24 @@
-/*textarea#input-ta {
-  display: inline-block;
-  margin: 0 auto;
-  width: 80%;
-  height: 200px;
-
-  border-radius: 7px;
-  border: 1px solid gray;
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-form.paste-form {
-  text-align: center;
-}*/
+.navbar {
+    margin-bottom: 20px;
+}
+
+.footer {
+    position: absolute;
+    padding: 7px;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+}
+
+h1.logo {
+    font-size: 0.6em;
+}
 
 /* Paper Styles */
 .paper {
@@ -18,7 +26,7 @@ form.paste-form {
     width: 90%;
     max-width: 800px;
     min-width: 400px;
-    height: 380px;
+    height: 300px;
     margin: 0 auto;
     background: #fafafa;
     border-radius: 10px;
