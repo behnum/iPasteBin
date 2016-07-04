@@ -7,7 +7,7 @@
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
   </button>
-  <a class="navbar-brand" href="http://www.ipastebin.com">iPasteBin.com</a>
+  <a class="navbar-brand" href="http://www.ipastebin.com">iPasteBin</a>
 </div>
 </div>
 </nav>

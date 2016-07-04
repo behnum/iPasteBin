@@ -62,3 +62,15 @@ form.paste-form {
 }
 
 /* /Paper Styles */
+
+/* Save Button */
+button.save {
+    display: table;
+
+    margin: 30px auto;
+    text-align: center;
+    
+    width: 90%;
+    max-width: 800px;
+    min-width: 400px;
+}
