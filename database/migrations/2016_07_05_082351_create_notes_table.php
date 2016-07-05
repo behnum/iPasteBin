@@ -16,6 +16,7 @@ class CreateNotesTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('url_token');
+            $table->unique('url_token');
             $table->text('note');
         });
     }

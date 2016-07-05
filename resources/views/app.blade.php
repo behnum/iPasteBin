@@ -22,9 +22,9 @@ f<!DOCTYPE html>
 
     <title>PasteBin - {{ $data['title'] }}</title>
 
-    <link href="css/app.css" rel="stylesheet">
-    <link href="css/ipastebin.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ url('') }}/css/app.css" rel="stylesheet">
+    <link href="{{ url('') }}/css/ipastebin.css" rel="stylesheet">
+    <link href="{{ url('') }}/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -38,7 +38,7 @@ f<!DOCTYPE html>
 @yield('content')
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/ipastebin.js"></script>
+<script src="{{ url('') }}/js/bootstrap.min.js"></script>
+<script src="{{ url('') }}/js/ipastebin.js"></script>
 </body>
 </html>
