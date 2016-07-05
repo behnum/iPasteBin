@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Note;
 use Illuminate\Http\Request;
 
 class pagesController extends Controller
@@ -30,6 +31,8 @@ class pagesController extends Controller
         'iText' => $iText,
       );
       
+      $note = new Note;
+      dd($note);
       return view('pages.home', compact('data'));
     }
 }
