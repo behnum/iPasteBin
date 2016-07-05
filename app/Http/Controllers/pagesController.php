@@ -2,8 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Request;
-
+use Illuminate\Http\Request;
 
 class pagesController extends Controller
 {
@@ -23,8 +22,8 @@ class pagesController extends Controller
       return view('pages.about', compact('data'));
     }
 
-    public function save() {
-      $iText = Request::input('iText');
+    public function save(Request $request) {
+      $iText = $request->iText;
 
       $data = array (
         'title' => 'Saved', //todo: Implement this

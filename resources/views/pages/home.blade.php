@@ -11,7 +11,7 @@
 
 <div class="container">
 
-	<form action="./" method="post">
+	<form action="{{ url('/') }}" method="post">
 		<input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
 		<div class="paper">
 		    <div class="paper-content">
