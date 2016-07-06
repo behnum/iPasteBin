@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -12,13 +13,14 @@ body {
     padding: 7px;
     bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
     height: 40px;
 }
 
 h1.logo {
     font-size: 0.6em;
 }
+/* /General Styles */
+
 
 /* Paper Styles */
 .paper {
@@ -62,13 +64,10 @@ h1.logo {
     outline: 0;
     background: transparent;
     color: #333;
-    /*font-family: 'Handlee', cursive;
-    font-weight: bold;*/
     font-size: 16px;
     box-sizing: border-box;
     z-index: 1;
 }
-
 /* /Paper Styles */
 
 /* Save Button */
@@ -87,3 +86,4 @@ button.save {
     background-color: yellow;
     color: green;
 }
+/* /Save Button */
