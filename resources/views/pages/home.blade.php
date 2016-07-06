@@ -5,7 +5,7 @@
 <div class="jumbotron">
 <div class="container">
 <h1>iPasteBin</h1>
-<p>iPasteBin is a simple tool for saving and sharing text snippets.</p>
+@include('includes.tagline')
 </div>
 </div>
 
@@ -18,7 +18,7 @@
 		        <textarea id="iText" name="iText" autofocus>{{ isset($data['iText']) ? $data['iText'] : 'Start Typing . . .' }}</textarea>
 		    </div>
 		</div>
-		<button class="save {{ isset($data['iText']) ? 'saved' : '' }}">Save</button>
+		<button class="btn btn-default save {{ isset($data['iText']) ? 'saved' : '' }}">Save</button>
 	</form>
 
 </div>
