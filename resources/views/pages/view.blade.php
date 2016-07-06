@@ -5,7 +5,7 @@
 <div class="jumbotron">
 <div class="container">
 <h2>Note{{ isset($data['token']) ? ': ' . $data['token'] : '' }} <a href="#">(copy url)</a></h2>
-<!-- <p>iPasteBin is a simple tool for saving and sharing text snippets.</p> -->
+
 </div>
 </div>
 

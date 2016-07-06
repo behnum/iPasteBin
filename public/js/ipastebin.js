@@ -1,6 +1,5 @@
 (function() {
 
-    //caching
     var itext = $('textarea#iText');
     var defaultText = "Start Typing . . .";
 

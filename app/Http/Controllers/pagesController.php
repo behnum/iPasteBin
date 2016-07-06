@@ -1,10 +1,10 @@
 <?php
-
+  
 namespace App\Http\Controllers;
 
 use App\Note;
-use Illuminate\Http\Request;
 use Redirect;
+use Illuminate\Http\Request;
 
 class pagesController extends Controller
 {
@@ -82,6 +82,5 @@ class pagesController extends Controller
 
       return redirect()->back();
     }
-      
 
 }
