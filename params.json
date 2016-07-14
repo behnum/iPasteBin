@@ -1,0 +1,6 @@
+{
+  "name": "iPastebin",
+  "tagline": "A Simple Paste Tool",
+  "body": "# iPasteBin\r\n\r\niPasteBin is yet another simple paste tool based on the [Laravel Framework](https://laravel.com/).\r\n\r\nIt is to be chaste, fast and intuitive. Functionality is subject to change over the time of development.\r\n\r\n## Screenshot\r\n![iPasteBin](https://raw.githubusercontent.com/behnum/iPasteBin/master/resources/screenshots/ipastebin.png)\r\n\r\n###Thanks goes to the following references:\r\n  * [Paper: A Pen By Malignan](http://codepen.io/MarcMalignan/pen/QbaXGg)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
