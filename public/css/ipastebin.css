@@ -8,6 +8,19 @@ body {
     margin-bottom: 20px;
 }
 
+.jumbotron {
+    background-color: #fff;
+    text-align: center;
+}
+
+h1#logo img {
+    width: 30%;
+}
+
+p.tagline {
+    font-size: 1.1em;
+}
+
 .footer {
     position: absolute;
     padding: 7px;

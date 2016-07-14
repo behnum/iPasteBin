@@ -4,7 +4,7 @@
 
 <div class="jumbotron">
 <div class="container">
-<h1>iPasteBin</h1>
+<h1 id="logo"><a href="/"><img src="./img/ipastebin-logo.png" alt="iPasteBin"></a></h1>
 @include('includes.tagline')
 </div>
 </div>
