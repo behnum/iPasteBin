@@ -1,9 +1,27 @@
 {
-  "private": true,
+  "name": "iPasteBin",
+  "version": "0.3.0",
+  "description": "iPasteBin paste tool.",
   "scripts": {
     "prod": "gulp --production",
     "dev": "gulp watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behnum/iPasteBin"
+  },
+  "keywords": [
+    "paste",
+    "snippet",
+    "tool",
+    "share"
+  ],
+  "author": "Behnam Baharmand <bbaharmand@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/behnum/iPasteBin/issues"
+  },
+  "homepage": "https://behnum.github.io/iPasteBin/",
   "devDependencies": {
     "bootstrap-sass": "^3.3.0",
     "gulp": "^3.9.1",
