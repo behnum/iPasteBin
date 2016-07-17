@@ -4,7 +4,7 @@
 
 <div class="jumbotron">
 <div class="container">
-<h2>Note{{ isset($data['token']) ? ': ' . $data['token'] : '' }} <a href="#">(copy url)</a></h2>
+<h2>Note{{ isset($data['token']) ? ': ' . $data['token'] : '' }} <a id="clipboard" href="#">(copy url)</a></h2>
 
 </div>
 </div>

@@ -1,18 +1,27 @@
-// import Notification from './Notification';
+import Clipboard from './Clipboard';
 
 (function() {
 
-    var itext = $('textarea#iText');
-    var defaultText = "Start Typing . . .";
+  let clip = new Clipboard();
+  let clipElem = $('a#clipboard');
+  clipElem.on('click', function(e) {
+    e.preventDefault();
 
-    itext.keydown(function() {
-      if (itext.val() == defaultText) {
-        itext.val('');
-      }
+    clip.showPanel();
+    return;
+  })
 
-      if(itext.val().indexOf(defaultText) >= 0) {
-        itext.val('');
-      }
-    });
+  let itext = $('textarea#iText');
+  let defaultText = "Start Typing . . .";
+
+  itext.keydown(function() {
+    if (itext.val() == defaultText) {
+      itext.val('');
+    }
+
+    if(itext.val().indexOf(defaultText) >= 0) {
+      itext.val('');
+    }
+  });
 
 })(jQuery);
